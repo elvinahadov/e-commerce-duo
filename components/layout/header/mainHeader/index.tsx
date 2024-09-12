@@ -22,9 +22,9 @@ const MainHeader = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="hidden md:flex flex-1 items-center justify-center gap-6 text-lg font-medium">
-          <ul className="flex gap-6">
-            <li className="flex items-center">
+        <div className="hidden md:flex items-center justify-center text-lg font-medium">
+          <ul className="flex gap-10 items-center">
+            <li className="flex w-20">
               Shop <Image src={Chevron} alt="Chevron" className="ml-1" />
             </li>
             <li>On Sale</li>
