@@ -19,19 +19,19 @@ const BottomFooter = () => {
         
         {/* Payment Icons */}
         <div className='flex gap-3 mt-4 md:mt-0'>
-          <div className='w-8 h-8 flex items-center justify-center'>
+          <div className='w-16 h-8 flex items-center justify-center'>
             <Image src={Visa} alt='Visa' />
           </div>
-          <div className='w-8 h-8 flex items-center justify-center'>
+          <div className='w-16 h-8 flex items-center justify-center'>
             <Image src={MasterCard} alt='MasterCard' />
           </div>
-          <div className='w-8 h-8 flex items-center justify-center'>
+          <div className='w-16 h-8 flex items-center justify-center'>
             <Image src={Paypal} alt='Paypal' />
           </div>
-          <div className='w-8 h-8 flex items-center justify-center'>
+          <div className='w-16 h-8 flex items-center justify-center'>
             <Image src={ApplePay} alt='ApplePay' />
           </div>
-          <div className='w-8 h-8 flex items-center justify-center'>
+          <div className='w-16 h-8 flex items-center justify-center'>
             <Image src={GooglePay} alt='GooglePay' />
           </div>
         </div>

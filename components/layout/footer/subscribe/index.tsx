@@ -4,11 +4,10 @@ import Image from 'next/image';
 
 const Subscribe = () => {
   return (
-    <section className="relative bg-black py-8 ">
-      <div className=" mx-auto max-w-[390px] px-4 flex flex-col md:flex-row md:max-w-[1240px] items-center justify-between bg-black rounded-lg p-8">
-        {/* Text Section */}
-        <div className="flex-1 mb-6 md:mb-0">
-          <p className="font-bold text-2xl md:text-3xl text-white text-center md:text-left">
+    <section className="absolute left-0 right-0 px-4 py-[43px] sm:mx-auto m-auto max-w-[390px] md:top-10 md:max-w-[1240px] bg-black rounded-[20px] z-10">
+      <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex-1 mb-6 md:mb-0  mx-4">
+          <p className="sm:text-[32px] sm:leading-[35px] md:text-[40px] font-bold md:leading-[45px] text-white text-left">
             STAY UP TO DATE ABOUT OUR LATEST OFFERS
           </p>
         </div>
