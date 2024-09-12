@@ -4,14 +4,16 @@ import NewAndTop from '@/components/home/newAndTop'
 import React from 'react'
 
 // interface IProps{
-//     newArrivals:INewArrival[]
-// }
-const HomeContainer = () => {
-  return (
-    <main>
-        <NewAndTop  />
-    </main>
-  )
-}
-
-export default HomeContainer
+  interface HomeContainerProps {
+    title: string;
+  }
+  
+  const HomeContainer: React.FC<HomeContainerProps> = ({ title }) => {
+    return (
+      <main>
+        <NewAndTop title={"New Arrivals"} />
+      </main>
+    );
+  };
+  
+  export default HomeContainer;

@@ -1,13 +1,19 @@
 import SingleProduct from '@/components/layout/SingleProduct'
 import React from 'react'
 
-const NewAndTop = () => {
-  return (
-    <section>
-      
-        <SingleProduct />
-    </section>
-  )
+// Props tipi tanımlama
+interface NewAndTopProps {
+  title: string;
 }
 
-export default NewAndTop
+// NewAndTop bileşeninin doğru tanımı
+const NewAndTop: React.FC<NewAndTopProps> = ({ title }) => {
+  return (
+    <section>
+      <h1>{title}</h1>
+      <SingleProduct />
+    </section>
+  );
+};
+
+export default NewAndTop;

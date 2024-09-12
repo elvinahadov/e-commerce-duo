@@ -8,7 +8,7 @@ import GitHub from '@/assets/images/icons/GitHub.svg';
 const UpperFooter = () => {
   return (
 
-    <>
+ 
 
     <section className=" pt-[135px]">
       <div className='bg-[#F0F0F0] pt-[190px] md:pt-[190px] pb-[50px] md:pb-[50px]'>
