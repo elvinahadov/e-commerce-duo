@@ -5,9 +5,9 @@ import Image from 'next/image';
 const Subscribe = () => {
   return (
     <section className="absolute left-0 right-0 px-4 py-[43px] sm:mx-auto m-auto max-w-[390px] md:top-10 md:max-w-[1240px] bg-black rounded-[20px] z-10">
-      <div className="flex flex-col md:flex-row items-center justify-between">
+      <div className="flex flex-col md:flex-row items-center">
         <div className="flex-1 mb-6 md:mb-0  mx-4">
-          <p className="sm:text-[32px] sm:leading-[35px] md:text-[40px] font-bold md:leading-[45px] text-white text-left">
+          <p className="text-white text-left text-[32px] leading-[35px]  font-bold md:leading-[45px] md:text-[40px] ">
             STAY UP TO DATE ABOUT OUR LATEST OFFERS
           </p>
         </div>

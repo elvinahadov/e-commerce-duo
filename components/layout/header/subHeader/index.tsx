@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image'
+import CloseIcon from "@/assets/images/icons/closeIcon.svg"
 
 const SubHeader = () => {
   return (
