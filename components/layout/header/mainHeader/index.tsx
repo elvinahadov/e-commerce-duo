@@ -10,30 +10,34 @@ import Hamburger from "@/assets/images/icons/hamburgerIcon.svg";
 const MainHeader = () => {
   return (
     <section className="bg-white">
-      <div className="max-w-[1240px] m-auto flex items-center my-6 gap-10">
-        <div className="hidden">
-          <Image
-            src={Hamburger}
-            alt=""
-          />
+      <div className="max-w-[1240px] mx-auto flex flex-wrap justify-between items-center py-4 px-6 gap-6 md:gap-10">
+        {/* Hamburger Icon for Mobile */}
+        <div className="md:hidden block">
+          <Image src={Hamburger} alt="Menu" />
         </div>
-        <div>
-          <p className="text-black text-[32px] font-bold">SHOP.CO</p>
+
+        {/* Logo */}
+        <div className="flex-1 text-left">
+          <p className="text-black text-2xl md:text-3xl font-bold">SHOP.CO</p>
         </div>
-        <div>
-          <ul className="text-[16px] font-[400] flex gap-6">
-            <li className="flex">
-              Shop <Image src={Chevron} alt="" />
+
+        {/* Navigation Links */}
+        <div className="hidden md:flex flex-1 items-center justify-center gap-6 text-lg font-medium">
+          <ul className="flex gap-6">
+            <li className="flex items-center">
+              Shop <Image src={Chevron} alt="Chevron" className="ml-1" />
             </li>
             <li>On Sale</li>
-            <li>New Arriwals</li>
+            <li>New Arrivals</li>
             <li>Brands</li>
           </ul>
         </div>
-        <div className="relative">
+
+        {/* Search Bar */}
+        <div className="relative hidden flex-1 max-w-xs md:max-w-sm md:block">
           <input
             type="text"
-            className="py-3 px-4 pl-10 bg-[#F0F0F0] rounded-[62px] w-[530px]"
+            className="py-3 px-4 pl-10 bg-[#F0F0F0] rounded-full w-full"
             placeholder="Search for products..."
           />
           <Image
@@ -42,25 +46,17 @@ const MainHeader = () => {
             className="absolute left-3 top-3"
           />
         </div>
-        <div className="flex gap-[14px]">
-          <div className="hidden">
-            <Image
-            src={SearchBlack}
-            alt=""
-            
-            />
+
+        {/* Icons (Cart, Person) */}
+        <div className="flex items-center gap-4 md:gap-6">
+          <div className="hidden md:block">
+            <Image src={SearchBlack} alt="Search Icon Black" />
           </div>
           <div>
-            <Image
-            src={Cart}
-            alt=""
-            />
+            <Image src={Cart} alt="Cart Icon" />
           </div>
           <div>
-            <Image
-            src={Person}
-            alt=""
-            />
+            <Image src={Person} alt="Person Icon" />
           </div>
         </div>
       </div>
