@@ -5,7 +5,7 @@ import Subscribe from './subscribe'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='relative'>
       <WhiteZone/>
       <Subscribe/>
       <MainFooter/>

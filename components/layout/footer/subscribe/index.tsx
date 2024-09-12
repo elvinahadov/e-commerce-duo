@@ -4,9 +4,8 @@ import Image from 'next/image';
 
 const Subscribe = () => {
   return (
-    <>
-    <div className='flex justify-center '>
-       <div className='bg-[black] px-[64px] flex gap-[212px] w-[1240px] rounded-[20px] py-[36px] items-center justify-between absolute top-[50px]'>
+    <div className='mx-auto flex justify-center items-center'>
+       <div className='absolute  bg-[black] px-[64px] flex gap-[212px] w-[1240px] rounded-[20px] py-[36px] items-center justify-between '>
         <div>
            <p className='font-bold text-[40px] leading-[45px] text-white'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
         </div>
@@ -20,9 +19,7 @@ const Subscribe = () => {
             </div>
         </div>
       </div>
-    </div>
-     
-    </>
+      </div>
   )
 }
 
