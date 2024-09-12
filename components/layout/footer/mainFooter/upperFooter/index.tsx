@@ -8,8 +8,8 @@ import GitHub from '@/assets/images/icons/GitHub.svg'
 const UpperFooter = () => {
   return (
     <>
-    <section className='bg-[#F0F0F0]'>
-          <div className=" mx-auto flex justify-center pb-[50px] pt-[150px] ">
+    <section className=''>
+          <div className=" mx-auto flex justify-center pb-[50px] pt-[150px] bg-[#F0F0F0]">
        <div className="flex gap-[113.5px]">
         <div className="w-[268px] ">
             <p className="font-bold text-[33.45px] leading-[40.15px] mb-[25px]">SHOP.CO</p>
