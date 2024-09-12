@@ -7,6 +7,9 @@ import GitHub from '@/assets/images/icons/GitHub.svg';
 
 const UpperFooter = () => {
   return (
+
+    <>
+
     <section className=" pt-[135px]">
       <div className='bg-[#F0F0F0] pt-[190px] md:pt-[190px] pb-[50px] md:pb-[50px]'>
       <div className="md:max-w-[1240px] mx-auto px-4">
@@ -20,6 +23,7 @@ const UpperFooter = () => {
             <div className="flex gap-2">
               <div className="w-8 h-8 bg-white border border-[#000] border-opacity-20 rounded-full flex items-center justify-center">
                 <Image src={Twitter} alt="Twitter" />
+
               </div>
               <div className="w-8 h-8 bg-black text-white border border-[#000] border-opacity-20 rounded-full flex items-center justify-center">
                 <Image src={Facebook} alt="Facebook" />
